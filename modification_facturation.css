@@ -1,0 +1,28 @@
+
+/* Style général pour le conteneur de colonnes */
+.trimestre {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/* Style pour chaque colonne de trimestre */
+.trimestre1,
+.trimestre2,
+.trimestre3,
+.trimestre4 {
+    width: 23%; /* Répartit l'espace de manière égale entre les colonnes */
+    padding: 10px;
+    border: 1px solid rgb(167, 36, 36);
+    box-sizing: border-box;
+}
+
+/* Style pour le texte */
+.trimestre1,
+.trimestre2,
+.trimestre3,
+.trimestre4 {
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
